@@ -20,7 +20,7 @@
 
 ゲーム1の簡単な説明や特徴
 
-![ゲーム1のスクリーンショット](ゲーム1のスクリーンショットのURL)
+![ゲーム1のスクリーンショット](https://github.com/Tsujishogo/Portfolio/blob/main/BulletCurtain/._%E4%BD%9C%E5%93%81%E8%AA%AC%E6%98%8E.png)
 
 
 ### リンク
