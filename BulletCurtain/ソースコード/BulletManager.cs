@@ -9,19 +9,18 @@ using UnityEngine.Events;
 public class BulletManager : MonoBehaviour
 {
     [SerializeField] EnemyBullet  _bulettPrefab; // 飛ばす弾のprefab
-    [SerializeField] Transform _hierarchyTransform; 
+    [SerializeField] Transform _hierarchyTransform;  // プールする弾の格納object
+    [SerializeField] bool isAttack = true; // 攻撃オンオフ用bool
+    [SerializeField] GameObject tama1; // 敵の発射する弾prefab
+    [SerializeField] int poolSize;　// 最初に弾をプールしておく数
+    [SerializeField] TimeCounter timeCounter;  //タイマーobject
+    [SerializeField] ResultManager resultManager; //リザルト管理object
+    [SerializeField] int attackType = 0; //攻撃タイプ管理変数
+    [SerializeField] float changeDelay = 1f;//攻撃タイプ変更時の待機時間
+    [SerializeField] int shotgunBullets = 10;　// ショットガン攻撃の１発ごとのばらまく数
+    [SerializeField] float shotgunRadius = 1f; //ショットガンのばらまく半径
+    GameObject player; //プレイヤー
     BulletPool _bulletPool;
-    [SerializeField] bool isAttack = true; 
-    [SerializeField] GameObject tama1;
-    [SerializeField] int poolSize;
-    [SerializeField] TimeCounter timeCounter;
-    [SerializeField] ResultManager resultManager;
-    [SerializeField] int attackType = 0;
-    [SerializeField] float changeDelay = 1f;//　攻撃タイプ変更時の待機時間
-
-    [SerializeField] int shotgunBullets = 10;
-    [SerializeField] float shotgunRadius = 1f;
-    GameObject player;
     float sin;
 
     

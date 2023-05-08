@@ -5,15 +5,16 @@ using UnityEngine;
 public class MenuAudioManager : MonoBehaviour
 {
     AudioSource audioSource;
-    [SerializeField] AudioClip decide;
-    [SerializeField] AudioClip select;
+    [SerializeField] AudioClip decide;　// 決定時SE
+    [SerializeField] AudioClip select; // カーソル移動時SE
+    [SerializeField] float cutTime = 0.1f; // SEの再生開始位置
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.time = 0.1f;
+        audioSource.time = cutTime;
     }
 
-    // Update is called once per frame
+   //決定されたときに音を鳴らす
     public void Onclick()
     {
         audioSource.PlayOneShot(decide);

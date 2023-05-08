@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public static SceneChanger instance;
-    [SerializeField] Fader fade;
+    [SerializeField] Fader fade;　// フェード用キャンパスobject
     [SerializeField] float FadeTime = 1f; // シーン推移のフェードにかける時間
     [SerializeField] public int stages = 3; // 実装するステージの数
     [SerializeField] int maxScore = 5999; //初期スコア
