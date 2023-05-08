@@ -26,7 +26,9 @@
 パーティクル、弾幕にはUniRXのオブジェクトプールを利用し負荷軽減を目指しています。  
 ライブラリはUniRX、DOTweenを利用しています。
 
-<img src="https://user-images.githubusercontent.com/77870800/235052920-85d52312-76b0-4d45-b36a-f9fceb3acb26.png" width="320px">[!['プレイ動画'](https://user-images.githubusercontent.com/77870800/236733475-965175bb-c096-4fcf-9ac5-877628d6f66d.png)](https://youtu.be/_52kX6OfE8A)
+<img src="https://user-images.githubusercontent.com/77870800/235052920-85d52312-76b0-4d45-b36a-f9fceb3acb26.png" width="320px">
+-プレイ動画  
+[!['プレイ動画'](https://user-images.githubusercontent.com/77870800/236733475-965175bb-c096-4fcf-9ac5-877628d6f66d.png)](https://youtu.be/_52kX6OfE8A)
 
 
 ### リンク
