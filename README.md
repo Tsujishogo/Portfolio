@@ -30,6 +30,8 @@
 -プレイ動画  
 [!['プレイ動画'](https://user-images.githubusercontent.com/77870800/236733475-965175bb-c096-4fcf-9ac5-877628d6f66d.png)](https://youtu.be/_52kX6OfE8A)
 
+[!['altテキスト'](https://user-images.githubusercontent.com/77870800/236733475-965175bb-c096-4fcf-9ac5-877628d6f66d.png)](https://youtu.be/_52kX6OfE8A)
+
 
 ### リンク
 
