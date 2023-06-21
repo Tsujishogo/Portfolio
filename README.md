@@ -44,9 +44,9 @@
 ## その他制作物
 
 *Unityエディタ拡張*
-- BlendShapeToAnimation
-　趣味の作業効率向上のために作った習作です。
-  指定のmeshのblendshapeの値をanimationファイルとして書き出します。
+- BlendShapeToAnimation 
+　趣味の作業効率向上のために作った習作です。 
+  指定のmeshのblendshapeの値をanimationファイルとして書き出します。 
 　3Dモデルの表情作成用
 
 ## 連絡先
