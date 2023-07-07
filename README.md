@@ -40,6 +40,8 @@
 ## VRゲーム作品
 
 制作中(2023年3月~)
+- XR Interaction Toolkit
+- PCVR
 
 ## その他制作物
 
