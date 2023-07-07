@@ -49,7 +49,11 @@
 - BlendShapeToAnimation  
 趣味の作業効率向上のために作った習作です。  
 指定のmeshのblendshapeの値をanimationファイルとして書き出します。  
-3Dモデルの表情作成用  
+3Dモデルの表情作成用
+
+- ArmatureTransformSaver
+こちらも習作です。
+指定のobjectの子objectすべてのTransformの値を同じ構造体のobjectにコピー、複製します。 
 
 ## 連絡先
 
