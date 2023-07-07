@@ -16,15 +16,15 @@
 - 開発期間: 2022年9月 - 2023年1月
 - 使用技術: Unity2021.3.0f1, C#
 - プラットフォーム: Windows
-- 操作:ゲームパッド,キーボード
+- 操作:ゲームパッド
 
 
 ### 概要
 
 コンセプトは3Dの弾幕シューティングアクション。  
 個人制作で、専門学校の制作展に出展し一般の方含め様々な方にプレイしていただきました。  
-パーティクル、弾幕にはUniRXのオブジェクトプールを利用し負荷軽減を目指しています。  
-ライブラリはUniRX、DOTweenを利用しています。
+パーティクル、弾幕にはUniRxのオブジェクトプールを利用し負荷軽減を目指しています。  
+ライブラリはUniRx、DOTweenを利用しています。
 
 <img src="https://user-images.githubusercontent.com/77870800/235052920-85d52312-76b0-4d45-b36a-f9fceb3acb26.png" width="320px">
 -プレイ動画 (YouTubeに飛びます)
@@ -55,8 +55,8 @@
 指定のmeshのblendshapeの値をanimationファイルとして書き出します。  
 3Dモデルの表情作成用
 
-- ArmatureTransformSaver
-こちらも習作です。
+- ArmatureTransformSaver  
+こちらも習作です。  
 指定のobjectの子objectすべてのTransformの値を同じ構造体のobjectにコピー、複製します。 
 
 ## 連絡先
