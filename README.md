@@ -39,9 +39,37 @@
 
 ## VRゲーム作品
 
-制作中(2023年3月~)
-- XR Interaction Toolkit
-- PCVR
+**ゲームタイトル:**
+
+- 開発期間: 2023年3月 - 2023年10月
+- 使用技術: Unity2021.3.19f1, C#
+- プラットフォーム: SteamVR
+- 利用ライブラリ: DOTween
+                 UniRx
+                 UniTask
+                 FinalIK
+                 XR Interaction ToolKit
+
+### 概要
+
+コンセプトは銃弾を刀で切り落とす達人の超常体験型ゲーム。  
+チーム制作で3Dモデル以外の部分を担当し、作ってもらった3DモデルをUnity上でセットアップ。
+キャラクター、世界観に合わせたマテリアルの設定、プレイヤーアバターとしてのVR対応を実施。
+
+反省点
+Unityのバージョン起因のバグを特定に時間がかかってしまった。
+制作初期に設計を考えず進めてしまい、また、新しい技術の学習をしながら制作をすすめたことでコードの書き直しが大量に必要になってしまい
+制作期間が長くなってしまった。
+
+
+
+<img src="https://user-images.githubusercontent.com/77870800/235052920-85d52312-76b0-4d45-b36a-f9fceb3acb26.png" width="320px">
+-プレイ動画 (YouTubeに飛びます)
+
+### リンク
+
+
+
 
 ## その他制作物
 
@@ -51,12 +79,12 @@
 
 
 - BlendShapeToAnimation  
-趣味の作業効率向上のために作った習作です。  
-指定のmeshのblendshapeの値をanimationファイルとして書き出します。  
-3Dモデルの表情作成用
+趣味の作業効率向上を兼ねて作った習作です。  
+指定のmeshのBlendShapeの値をAnimationファイルとして書き出します。  
+3Dモデルの表情Animation作成用
 
 - ArmatureTransformSaver  
-こちらも習作です。  
+こちらも習作。  
 指定のobjectの子objectすべてのTransformの値を同じ構造体のobjectにコピー、複製します。 
 
 ## 連絡先
